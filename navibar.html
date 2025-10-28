@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Charitee</title>
+    <style>
+        *{
+            background-color: black;
+            /* background-image: url('https://preview.colorlib.com/theme/charitee/assets/img/hero/h1_hero1.jpg.webp'); */
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        .navbar{
+            display: flex;
+            color: white;
+            justify-content: space-between;
+        }
+        img{
+            padding-top: 10px;
+            width: 200px;
+            height: 45px;
+        }
+        .left-side{
+            display: flex;
+            justify-content: space-between;
+            padding-left: 30px;
+        }
+        .right-side{
+            display: flex;
+            gap: 30px;
+            padding: 8px;
+            cursor: pointer;
+           padding-right: 38px;
+           padding-bottom: 60px;
+           padding-top: 3px;
+           font-size: 20px;
+        }
+        .lists{
+            display: flex;
+            gap: 40px;
+            list-style-type: none;
+            padding-top: 7px;
+            padding-left: 80px;
+            font-size: 16.5px;
+        }
+        .lists li:hover{
+            border-bottom: 1px solid white;
+            cursor: pointer;
+            color: rgb(15, 209, 193);
+            padding-bottom: 8px;
+            transition: 0.5s ease;
+        }
+        .right-side button{
+            background-color: rgb(225, 73, 27);
+            font-size:16px;
+            color: white;
+            height: 60px;
+            width: 210px;
+            border: 1px solid rgb(225, 73, 27);
+            transition: 0.s ease;
+        }
+        .right-side button:hover{
+            background-color: transparent;
+            border: 1px solid white;
+            cursor: pointer;
+        }
+        #line{
+            border-bottom: 1px dotted white;
+            padding-bottom: 7px;
+        }
+        #all:hover{
+            cursor: pointer;
+        }
+
+    </style>
+</head>
+<body>
+    <div>
+        <div class = "navbar">
+            <div class = "left-side">
+                <div>
+                    <img src="https://preview.colorlib.com/theme/charitee/assets/img/logo/logo.png"/>
+                </div>
+                <div>
+                    <ul class = "lists">
+                        <li>Home</li>
+                        <li>Who We Are?</li>
+                        <li>Programs</li>
+                        <li>About</li>
+                        <li>Blog</li>
+                        <li>Contact us</li>
+                    </ul>
+                </div>
+            </div>
+            <div>
+                 <div class = "right-side">
+                    <p id = "all">Call us: <span id ="line">9536845693</span></p>
+                    <button>🤍 Make A Donation</button>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
