@@ -87,16 +87,16 @@
         }
         
         .hero-section{
-            height: 500px;
+            height: 520px;
             margin-left: 80px;
             margin-top: 100px;
         }
         .hero-section h1{
             color: white;
             font-size: 70px;
-            font-weight: 550;
+            font-weight: 500;
             font-family: josefin sans, sans-serif;
-            width: 550px;
+            width: 500px;
         }
         .hero-section p{
             color: white;
@@ -104,7 +104,7 @@
             margin-top: 20px;
             font-family: rubik, sans-serif;
             font-weight: 300px;
-            width: 430px;
+            width: 400px;
         }
         .hero-section button{
             margin-top: 30px;
@@ -115,6 +115,7 @@
             width: 220px;
             border: 1px solid #65C9BB;
             padding-top: 0px;
+            cursor: pointer;
         }
         .hero-section button:hover{
             background-color: transparent;
@@ -122,10 +123,153 @@
             cursor: pointer;
             transition: all 0.5s ease;
         }
+        .about1-section-div{
+            background-color: rgb(253, 244, 231);
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin-bottom: 50px;
+        }
+        #about1-img{
+            width: 580px;
+            height: 420px;
+            margin-top: 58px;
+            padding-bottom: 50px;
+            margin-left: 80px;
+        }
+        .about1-section-text{
+            margin-left: 80px;
+            width: 500px;
+        }
+        #about1-section-1{
+            color: #65C9BB;
+            font-size: 18px;
+            font-weight: 500;
+            font-family: verdana, geneva, tahoma, sans-serif;
+        }
+        .about1-section-text h1{
+            color: #263B5C;
+            font-size: 50px;
+            font-weight: 550;
+            font-family: 'josefin sans', sans-serif;
+            margin-top: 15px;
+            margin-bottom: 20px;
+        }
+        #about1-section-2{
+            color: #777777;
+            font-size: 16px;
+            font-weight: 400;
+            font-family: 'rubik', sans-serif;
+            line-height: 1.6;
+        }
+        #about1-section-b1{
+            background-color: #F15B43;
+            font-size:18px;
+            font-weight: 600;
+            color: white;
+            height: 58px;
+            width: 160px;
+            border: 1px solid #F15B43;
+            margin-top: 30px;
+            margin-right: 10px;
+            padding-top: 0px;
+        }
+        #about1-section-b1:hover{
+            background-color: transparent;
+            border: 1px solid #F15B43;
+            color: #F15B43;
+            cursor: pointer;
+            transition: all 0.5s ease;
+            cursor: pointer;
+        }
+        #about1-section-b2{
+            background-color: transparent;
+            font-size:18px;
+            font-weight: 600;
+            color: #F15B43;
+            height: 58px;
+            width: 160px;
+            border: 1px solid #F15B43;
+            margin-top: 30px;
+            margin-left: 10px;
+            padding-top: 0px;
+        }
+        #about1-section-b2:hover{
+            background-color: #F15B43;
+            border: 1px solid #F15B43;
+            color: white;
+            transition: all 0.5s ease;
+            cursor: pointer;
+        }
+        .about2-section{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin-bottom: 50px;
+        }
+        .about2-section img{
+            margin-left: 50px;
+            width: 600px;
+            height: 500px;
+        }
+        .about2-section-text{
+            margin-left: 10px;
+            width: 430px;
+        }
+        #about2-section-top{
+            margin-right: 200px;
+            font-size: 15px;
+            font-weight: 550;
+            font-family: 'josefin sans', sans-serif;
+            color: #65C9BB;
+        }
+        .about2-section-text h1{
+            width: 400px;
+            margin-right: 0px;
+            font-size: 40px;
+            font-weight: 550;
+            font-family: 'josefin sans', sans-serif;
+            color: #263B5C;
+            margin-top: 15px;
+            margin-bottom: 20px;
+        }
+        #about2-section-bottom{
+            color: #777777;
+            font-size: 16px;
+            font-weight: 500;
+            line-height: 1.6;
+        }
+        .about2-section-text button{
+            background-color:#F15B43;
+            font-size:18px;
+            font-weight: 600;
+            color: white;
+            height: 58px;
+            width: 180px;
+            border: 1px solid #65C9BB;
+            margin-top: 30px;
+        }
+        .about2-section-text button:hover{
+            background-color: transparent;
+            border: 1px solid #F15B43;
+            color: #F15B43;
+            cursor: pointer;
+            transition: all 0.5s ease;
+        }
+        .about3-section{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin-bottom: 50px;
+        }
+        .about3-section img{
+            width: 456px;
+            height: 473px;
+        }
 
     </style>
 </head>
-<body>
+<div>
     <div class="body-div">
         <div class = "navbar">
             <div class = "left-side">
@@ -163,10 +307,36 @@
         </div>
     </div>
          <!-- About-section -->
-         <div>
-            <div class = "about-section">
-                <img src="/assets/about1.jpg.webp"/>
+         <div class="about1-section-div">
+            <div class = "about1-section">
+                <img id="about1-img" src="/assets/about1.jpg.webp"/>
+            </div>
+            <div class="about1-section-text">
+                <p id="about1-section-1">Upcoming Program</p>
+                <h1>Donate vitamin B12 supply program</h1>
+                <p id="about1-section-2">When a child gets access to good food, it can change just about everything. Sed do eiusmod tempor incididunt dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation</p>
+                <button id="about1-section-b1">Donate Now</button>
+                <button id="about1-section-b2">View Programs</button>
+            </div>
+        </div>
+            <div class="about2-section">
+                <div class ="about2-section-text">
+                    <p id="about2-section-top">About Us</p>
+                    <h1>We are tender heart charity foundation.</h1>
+                    <p id="about2-section-bottom">When a child gets access to good food, it can change just about everything. Sed do eiusmod tempor incididunt dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation</p>
+                    <button>Discover More</button>
+                </div>
+                <div>
+                    <img src="/assets/about2.png.webp"/>
+                </div>
+            </div>
+        <div>
+            <div class ="about3-section">
+                <div>
+                    <img src="/assets/about3.jpg.webp"/>
+                </div>
             </div>
          </div>
+</div>
 </body>
 </html>
