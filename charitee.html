@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Charitee</title>
+    <style>
+        *{
+            /* background-image: url("https://preview.colorlib.com/theme/charitee/assets/img/hero/h1_hero1.jpg.webp"); */
+            background-color: black;
+        }
+        .navbar{
+            display: flex;
+            color: white;
+            justify-content: space-between;
+            align-content: center;
+        }
+        .left-side{
+            display: flex;
+            justify-content: space-between;
+            padding-left: 30px;
+            padding-top: 30px;
+        }
+        .right-side{
+            display: flex;
+            gap: 30px;
+            padding: 8px;
+            cursor: pointer;
+            padding-right: 38px;
+            padding-bottom: 60px; 
+            padding-top: 35px;
+            font-size: 20px;
+        }
+        .right-side button{
+            background-color: rgb(220, 79, 36);
+            color: white;
+            font-size: 18px;
+            height: 60px;
+            width: 210px;
+            border: 1px solid rgb(220, 79, 36);
+            transition: 0.5s ease;
+            padding-top: 0px;
+        }
+        .right-side button:hover{
+            background-color: transparent;
+            color: rgb(220, 79, 36);
+        }
+        .lists{
+            display: flex;
+            gap: 40px;
+            list-style-type: none;
+            padding-top: 7px;
+            padding-left: 80px;
+            font-size: 16.5px;
+        }
+    </style>
+</head>
+<body>
+    <div>
+        <div>
+            <div class="navbar">
+                <div class="left-side">
+                    <img src="https://preview.colorlib.com/theme/charitee/assets/img/logo/logo.png" alt="Charitee Logo">
+                    <ul class="lists">
+                        <li>Home</li>
+                        <li>About Us</li>
+                        <li>Causes</li>
+                        <li>Events</li>
+                        <li>Blog</li>
+                        <li>Contact</li>
+                    </ul>
+                </div>
+                <div class="right-side">
+                    <p id = "all">Call us: <span id ="line">9536845693</span></p>
+                    <button>🤍 Make A Donation</button>
+                </div>   
+            </div>
+        </div>
+    </div>
+</body>
+</html>

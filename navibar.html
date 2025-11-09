@@ -13,16 +13,18 @@
         }
 
         .body-div {
-            background-image: url('https://preview.colorlib.com/theme/charitee/assets/img/hero/h1_hero1.jpg.webp'); 
+            background-image: url("/assets/h1_hero1.jpg.webp"); 
             background-repeat: no-repeat;
+            background-size: cover;
         }
         .navbar{
             display: flex;
             color: white;
             justify-content: space-between;
+            align-content: center;
         }
         img{
-            padding-top: 25px;
+            padding-top: 0;
             width: 200px;
             height: 45px;
         }
@@ -30,17 +32,17 @@
             display: flex;
             justify-content: space-between;
             padding-left: 30px;
-            padding-top: 20px;
+            padding-top: 30px;
         }
         .right-side{
             display: flex;
             gap: 30px;
             padding: 8px;
             cursor: pointer;
-           padding-right: 38px;
-           padding-bottom: 60px;
-           padding-top: 3px;
-           font-size: 20px;
+            padding-right: 38px;
+            padding-bottom: 60px;
+            padding-top: 20px;
+            font-size: 20px;
         }
         .lists{
             display: flex;
@@ -64,7 +66,8 @@
             height: 60px;
             width: 210px;
             border: 1px solid rgb(220, 79, 36);
-            transition: 0.s ease;
+            transition: 0.5s ease;
+            padding-top: 0px;
         }
         .right-side button:hover{
             background-color: transparent;
@@ -75,8 +78,49 @@
             border-bottom: 1px dotted white;
             padding-bottom: 7px;
         }
+        #all{
+            padding-top: 15px;
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+        }
         #all:hover{
             cursor: pointer;
+        }
+        
+        .hero-section{
+            height: 500px;
+            margin-left: 80px;
+            margin-top: 100px;
+        }
+        .hero-section h1{
+            color: white;
+            font-size: 70px;
+            font-weight: 550;
+            font-family: josefin sans, sans-serif;
+            width: 550px;
+        }
+        .hero-section p{
+            color: white;
+            font-size: 22px;
+            margin-top: 20px;
+            font-family: rubik, sans-serif;
+            font-weight: 300px;
+            width: 430px;
+        }
+        .hero-section button{
+            margin-top: 30px;
+            background-color:#65C9BB;
+            font-size:18px;
+            color: white;
+            height: 60px;
+            width: 220px;
+            border: 1px solid #65C9BB;
+            padding-top: 0px;
+        }
+        .hero-section button:hover{
+            background-color: transparent;
+            border: 1px solid white;
+            cursor: pointer;
+            transition: all 0.5s ease;
         }
 
     </style>
@@ -102,29 +146,27 @@
             <div>
                  <div class = "right-side">
                     <p id = "all">Call us: <span id ="line">9536845693</span></p>
-                    <button>🤍 Make A Donation</button>
+                    <button><span></span>🤍 Make A Donation</button>
+                </div>
+                <div>
+                    <h1></h1>
                 </div>
             </div>
         </div>
+        <!-- Hero-section -->
         <div>
-            <h1>hi</h1>
-            <h1>hi</h1>
-            <h1>hi</h1>
-            <h1>hi</h1>
-            <h1>hi</h1>
-            <h1>hi</h1>
-            <h1>hi</h1>
-            <h1>hi</h1>
-            <h1>hi</h1>
-            <h1>hi</h1>
-            <h1>hi</h1>
-            <h1>hi</h1>
-            <h1>hi</h1>
-            <h1>hi</h1>
-            <h1>hi</h1>     
-            <h1>hi</h1>
-            <h1>hi</h1>
-            <h1>hi</h1>
+            <div class = "hero-section">
+                <h1>Give a helping hand to those who need it!</h1>
+                <p>When a child gets access to good food, it can change just about anything.</p>
+                <button>Ongoing Programs</button>
+            </div>
         </div>
+    </div>
+         <!-- About-section -->
+         <div>
+            <div class = "about-section">
+                <img src="/assets/about1.jpg.webp"/>
+            </div>
+         </div>
 </body>
 </html>
