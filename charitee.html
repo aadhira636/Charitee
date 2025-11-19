@@ -256,6 +256,41 @@
             cursor: pointer;
             transition: all 0.5s ease;
         }
+        .about4-section{
+            height: 500px;
+            display: flex;
+            flex-direction: row;
+        }
+        .first-one{
+            background-color: rgb(236, 235, 235);
+            height: 450px;
+        }
+        .about4-section-collection{
+            display: flex;
+            margin-left: 20px;
+            gap: 30px;
+            padding-top: 10px;
+        }
+        .first-one:hover{
+            cursor: pointer;
+        }
+        .about4-section button{
+            background-color: #F15B43;
+            height: 45px; 
+            width: 95px;
+            color: white;
+            font-weight: 600;
+            font-size: 16px;
+            border: 1px solid #F15B43; 
+            margin-left: 250px;
+            padding-top: 0px;
+        }
+        .about4-section button:hover{
+            background-color: transparent;
+            color: #F15B43;
+            cursor: pointer;
+            transition: 0.5s ease;
+        }
         .about3-section{
             display: flex;
             justify-content: center;
@@ -319,7 +354,7 @@
             text-align: center;
             flex-direction: column;
             margin-top: 60px;
-            padding-top: 40px;
+            padding-top: 60px;
             gap: 20px;
         }
         .services-section-provicions{
@@ -328,13 +363,82 @@
             justify-content: center;
             align-items: center;
             text-align: center;
-            margin-top: 200px;
-            padding-top: 20px;
+            margin-top: 60px;
+            padding-top: 10px;
             gap: 120px;
             width: 1200px;
             margin-left: 130px;
         }
+        .ssp-text img{
+            padding-bottom: 15px;
+            height: 110px;
+        }
+        .ssp-text h3,p{
+            padding-top: 10px;
+        }
+        .footer{
+            display: flex;
+            background-color: #263B5C;
+            height: 410px;
+        }
+        .first-part{
+            margin-top: 80px;
+            margin-left: 140px;
+            width: 378px;
+            margin-right: 20px;
+            color: white;
+            line-height: 30px;
+        }
+        .second-part{
+            color: white;
+            margin-top: 90px;
+            font-family: "Rubik", sans-serif;
 
+        }
+        .second-part ul{
+            list-style-type: none;
+            margin-top: 20px;
+        }
+        .second-part li{
+            padding-bottom: 10px;
+            padding-right: 10px;
+            padding-top: 10px;
+        }
+        .third-part{
+            color: white;
+            margin-top: 90px;
+            margin-left: 120px;
+            gap: 10px;
+            width: 300px;
+        }
+        .fourth-part{
+            color: white;
+            margin-top: 90px;
+            margin-left: 80px;
+            width: 190px;
+        }
+        .fourth-part button{
+            background-color: #F15B43;
+            height: 44px;
+            width: 130px;
+            font-weight: 600;
+            color: white;
+            border: 1px solid #F15B43;
+        }
+        .fourth-part button:hover{
+            background-color: transparent;
+            border: 1px solid white;
+            transition: 0.5s ease;
+            cursor: pointer;
+        }
+        .last-footer{
+            background-color: #263B5C;
+            color: white;
+            text-align: center;
+            padding-bottom: 10px;
+            font-size: smaller;
+        }
+        
     </style>
 </head>
 <div>
@@ -401,6 +505,27 @@
                         <img src="/assets/about2.png.webp"/>
                     </div>
                 </div>
+                <!-- About4-section -->
+                 <div>
+                    <div class="about4-section">
+                        <div class="first-one">
+                            <img style="height: 205px; width: 368px;" src="./assets/class-img1.jpg.webp" alt="">
+                            <h5 style="padding-left: 20px; padding-top: 20px;">Help the ecosystems</h5>
+                            <p style="color: #777777; width: 300px; margin-left: 20px;">Sedac odio aliquet, fringilla odio eget, tincidunt nunc duis aliquet pulvinar ante start in life and the opportunity to learn.</p>
+                            <div class="about4-section-collection">
+                                <div>
+                                    <p style="color: #65C9BB;font-weight: 600;font-size: large;">$67,845</p>
+                                    <p style="font-size: small;">Goal</p>
+                                </div>
+                                <div>
+                                    <p style="color: #65C9BB;font-weight: 600;font-size: large;">$48,845</p>
+                                    <p style="font-size: small;">Raised</p>
+                                </div>
+                            </div>
+                            <button>Donate</button>
+                        </div>
+                    </div>
+                 </div>
             <!-- About3-section -->
             <div>
                 <div class ="about3-section">
@@ -423,21 +548,57 @@
                         <h1>How we help people</h1>
                     </div>
                     <div class="services-section-provicions">
-                        <div>
+                        <div class="ssp-text">
+                            <img id="food-image" src="./assets/services1.svg">
                             <h3>Pure Food and Water</h3>
                             <p>Odio aliquet, fringilla odio eget, tincidunt nunc duis aliquet pulvinar ante employees and organizations to support.</p>
                         </div>
-                        <div>
+                        <div class="ssp-text">
+                            <img id="health-image" src="./assets/services2.svg">
                             <h3>Health and Medicine</h3>
                             <p>Odio aliquet, fringilla odio eget, tincidunt nunc duis aliquet pulvinar ante employees and organizations to support.</p>
                         </div>
-                        <div>
+                        <div class="ssp-text">
+                            <img id="edu-image" src="./assets/services3.svg">
                             <h3>Education</h3>
                             <p>Odio aliquet, fringilla odio eget, tincidunt nunc duis aliquet pulvinar ante employees and organizations to support.</p>
                         </div>
                     </div>
                 </div>
              </div>
+             <!-- Footer section -->
+            <div class="footer">
+                <div class="first-part">
+                    <img src="https://preview.colorlib.com/theme/charitee/assets/img/logo/logo.png"/>
+                    <p>When a child gets access to good food, it can change just about everything. Sed do eiusmod tempor incididunt dolore magna aliqua.</p>
+                </div>
+                <div class="second-part">
+                    <h4>Navigation</h4>
+                    <ul>
+                        <li>Home</li>
+                        <li>About</li>
+                        <li>Services</li>
+                        <li>Blog</li>
+                        <li>Contact us</li>
+                    </ul>
+                </div>
+                <div class="third-part">
+                    <h4>Contact Us</h4>
+                    <p style="padding-top: 25px;">4486 Richards Avenue, Modesto CA - 95354</p>
+                    <p style="padding-top: 25px;">209-818-6041</p>
+                    <p style="padding-top: 25px;">charity90@gmail.com</p>
+                </div>
+                <div class="fourth-part">
+                    <h4>Support</h4>
+                    <p style="padding-top: 25px; padding-bottom: 20px;">When a child gets access to good food, it can change.</p>
+                    <button>Join Us Today</button>
+                </div>
+        </div>
+        <hr>
+            <div class="last-footer">
+                <p>Copyright ©2025 All rights reserved | This template is made with 💚 by Colorlib</p>  
+            </div>
+            
 </div>
 </body>
 </html>
