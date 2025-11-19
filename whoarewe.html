@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Charitee</title>
+    <title>Document</title>
     <style>
         *{
             /* background-color: black; */
@@ -11,9 +11,11 @@
             padding: 0px;
             margin: 0px;
         }
-
+        .logo{
+            cursor: pointer;
+        }
         .body-div {
-            background-image: url("/assets/h1_hero1.jpg.webp"); 
+            background-image: url("/assets/h2_hero1.jpg.webp"); 
             background-repeat: no-repeat;
             background-size: cover;
         }
@@ -22,6 +24,17 @@
             color: white;
             justify-content: space-between;
             align-content: center;
+        }
+        .h2-hero-section{
+            height: 200px;
+        }
+        .h2-hero-section h1{
+            color: white;
+            font-size: 40px;
+            font-weight: bolder;
+            font-family: 'Times New Roman', Times, serif;
+            margin-left: 150px;
+            padding-top: 60px;
         }
         img{
             padding-top: 0;
@@ -84,44 +97,6 @@
         }
         #all:hover{
             cursor: pointer;
-        }
-        
-        .hero-section{
-            height: 520px;
-            margin-left: 80px;
-            margin-top: 100px;
-        }
-        .hero-section h1{
-            color: white;
-            font-size: 70px;
-            font-weight: 500;
-            font-family: josefin sans, sans-serif;
-            width: 500px;
-        }
-        .hero-section p{
-            color: white;
-            font-size: 22px;
-            margin-top: 20px;
-            font-family: rubik, sans-serif;
-            font-weight: 300px;
-            width: 400px;
-        }
-        .hero-section button{
-            margin-top: 30px;
-            background-color:#65C9BB;
-            font-size:18px;
-            color: white;
-            height: 60px;
-            width: 220px;
-            border: 1px solid #65C9BB;
-            padding-top: 0px;
-            cursor: pointer;
-        }
-        .hero-section button:hover{
-            background-color: transparent;
-            border: 1px solid white;
-            cursor: pointer;
-            transition: all 0.5s ease;
         }
         .about1-section-div{
             background-color: rgb(253, 244, 231);
@@ -455,13 +430,9 @@
             padding-bottom: 8px;
             transition: 0.5s ease;
         }
-        .logo{
-            cursor: pointer;
-        }
-        
     </style>
 </head>
-<div>
+<body>
     <div class="body-div">
         <div class = "navbar">
             <div class = "left-side">
@@ -471,7 +442,7 @@
                 <div>
                     <ul class = "lists">
                         <li><a id="home" href="http://127.0.0.1:5500/charitee.html">Home</a></li>
-                        <li><a id="home" href="http://127.0.0.1:5500/whoarewe.html">Who We Are?</a></li>
+                        <li>Who We Are?</li>
                         <li>Programs</li>
                         <li>About</li>
                         <li>Blog</li>
@@ -489,13 +460,9 @@
                 </div>
             </div>
         </div>
-        <!-- Hero-section -->
-        <div>
-            <div class = "hero-section">
-                <h1>Give a helping hand to those who need it!</h1>
-                <p>When a child gets access to good food, it can change just about anything.</p>
-                <button>Ongoing Programs</button>
-            </div>
+       <!-- h2-Hero-section -->
+        <div class="h2-hero-section">
+            <h1>What we do?</h1>
         </div>
     </div>
     
@@ -511,89 +478,6 @@
                     <p id="about1-section-2">When a child gets access to good food, it can change just about everything. Sed do eiusmod tempor incididunt dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation</p>
                     <button id="about1-section-b1">Donate Now</button>
                     <button id="about1-section-b2">View Programs</button>
-                </div>
-            </div>
-            <!-- About2-section -->
-                <div class="about2-section">
-                    <div class ="about2-section-text">
-                        <p id="about2-section-top">About Us</p>
-                        <h1>We are tender heart charity foundation.</h1>
-                        <p id="about2-section-bottom">When a child gets access to good food, it can change just about everything. Sed do eiusmod tempor incididunt dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation</p>
-                        <button>Discover More</button>
-                    </div>
-                    <div>
-                        <img src="/assets/about2.png.webp"/>
-                    </div>
-                </div>
-                <!-- About4-section -->
-                 <div class="About4-section">
-                    <div class="about4-section">
-                        <div class="first-one">
-                            <img style="height: 250px; width: 460px;" src="./assets/class-img1.jpg.webp" alt="">
-                            <h5 style="padding-left: 20px; padding-top: 20px;">Help the ecosystems</h5>
-                            <p style="color: #777777; width: 450px; margin-left: 20px;">Sedac odio aliquet, fringilla odio eget, tincidunt nunc duis aliquet pulvinar ante start in life and the opportunity to learn.</p>
-                            <div class="about4-section-collection">
-                                <div>
-                                    <p style="color: #65C9BB;font-weight: 600;font-size: large;">$67,845</p>
-                                    <p style="font-size: small;">Goal</p>
-                                </div>
-                                <div>
-                                    <p style="color: #65C9BB;font-weight: 600;font-size: large;">$48,845</p>
-                                    <p style="font-size: small;">Raised</p>
-                                </div>
-                            </div>
-                            <button>Donate</button>
-                        </div>
-                    </div>
-                    <div class="about4-section">
-                        <div class="first-one">
-                            <img style="height: 250px; width: 460px;" src="./assets/class-img2.jpg.webp" alt="">
-                            <h5 style="padding-left: 20px; padding-top: 20px;">Help the ecosystems</h5>
-                            <p style="color: #777777; width: 450px; margin-left: 20px;">Sedac odio aliquet, fringilla odio eget, tincidunt nunc duis aliquet pulvinar ante start in life and the opportunity to learn.</p>
-                            <div class="about4-section-collection">
-                                <div>
-                                    <p style="color: #65C9BB;font-weight: 600;font-size: large;">$67,845</p>
-                                    <p style="font-size: small;">Goal</p>
-                                </div>
-                                <div>
-                                    <p style="color: #65C9BB;font-weight: 600;font-size: large;">$48,845</p>
-                                    <p style="font-size: small;">Raised</p>
-                                </div>
-                            </div>
-                            <button>Donate</button>
-                        </div>
-                    </div>
-                    <div class="about4-section">
-                        <div class="first-one">
-                            <img style="height: 250px; width: 460px;" src="./assets/class-img3.jpg.webp" alt="">
-                            <h5 style="padding-left: 20px; padding-top: 20px;">Help the ecosystems</h5>
-                            <p style="color: #777777; width: 450px; margin-left: 20px;">Sedac odio aliquet, fringilla odio eget, tincidunt nunc duis aliquet pulvinar ante start in life and the opportunity to learn.</p>
-                            <div class="about4-section-collection">
-                                <div>
-                                    <p style="color: #65C9BB;font-weight: 600;font-size: large;">$67,845</p>
-                                    <p style="font-size: small;">Goal</p>
-                                </div>
-                                <div>
-                                    <p style="color: #65C9BB;font-weight: 600;font-size: large;">$48,845</p>
-                                    <p style="font-size: small;">Raised</p>
-                                </div>
-                            </div>
-                            <button>Donate</button>
-                        </div>
-                    </div>
-                 </div>
-            <!-- About3-section -->
-            <div>
-                <div class ="about3-section">
-                    <div>
-                        <img src="/assets/about3.jpg.webp"/>
-                    </div>
-                    <div class="about3-section-text">
-                        <p id = "about3-section-top">Helping today</p>
-                        <h1>What we are doing</h1>
-                        <p id = "about3-section-bottom">When a child gets access to good food, it can change just about everything. Sed do eiusmod tempor incididunt dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation</p>
-                        <button>Join Us Today</button>
-                    </div>
                 </div>
             </div>
             <!-- Services-section -->
@@ -622,6 +506,18 @@
                     </div>
                 </div>
              </div>
+             <!-- About2-section -->
+                <div class="about2-section">
+                    <div class ="about2-section-text">
+                        <p id="about2-section-top">About Us</p>
+                        <h1>We are tender heart charity foundation.</h1>
+                        <p id="about2-section-bottom">When a child gets access to good food, it can change just about everything. Sed do eiusmod tempor incididunt dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation</p>
+                        <button>Discover More</button>
+                    </div>
+                    <div>
+                        <img src="/assets/about2.png.webp"/>
+                    </div>
+                </div>
              <!-- Footer section -->
             <div class="footer">
                 <div class="first-part">
