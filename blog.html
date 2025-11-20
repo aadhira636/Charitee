@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            /* background-color: black; */
+            font-family: Arial, Helvetica, sans-serif;
+            padding: 0px;
+            margin: 0px;
+        }
+        .logo{
+            cursor: pointer;
+        }
+        .body-div {
+            background-image: url("/assets/h2_hero1.jpg.webp"); 
+            background-repeat: no-repeat;
+            background-size: cover;
+        }
+        .navbar{
+            display: flex;
+            color: white;
+            justify-content: space-between;
+            align-content: center;
+        }
+        .h2-hero-section{
+            height: 200px;
+        }
+        .h2-hero-section h1{
+            color: white;
+            font-size: 40px;
+            font-weight: bolder;
+            font-family: 'Times New Roman', Times, serif;
+            margin-left: 150px;
+            padding-top: 60px;
+        }
+        img{
+            padding-top: 0;
+            width: 200px;
+            height: 45px;
+        }
+        .left-side{
+            display: flex;
+            justify-content: space-between;
+            padding-left: 30px;
+            padding-top: 30px;
+        }
+        .right-side{
+            display: flex;
+            gap: 30px;
+            padding: 8px;
+            cursor: pointer;
+            padding-right: 38px;
+            padding-bottom: 60px;
+            padding-top: 20px;
+            font-size: 20px;
+        }
+        .lists{
+            display: flex;
+            gap: 40px;
+            list-style-type: none;
+            padding-top: 7px;
+            padding-left: 80px;
+            font-size: 16.5px;
+        }
+        .lists li:hover{
+            border-bottom: 1px solid white;
+            cursor: pointer;
+            color: rgb(15, 209, 193);
+            padding-bottom: 8px;
+            transition: 0.5s ease;
+        }
+        .right-side button{
+            background-color: rgb(220, 79, 36);
+            font-size:16px;
+            color: white;
+            height: 60px;
+            width: 210px;
+            border: 1px solid rgb(220, 79, 36);
+            transition: 0.5s ease;
+            padding-top: 0px;
+        }
+        .right-side button:hover{
+            background-color: transparent;
+            border: 1px solid white;
+            cursor: pointer;
+        }
+        #line{
+            border-bottom: 1px dotted white;
+            padding-bottom: 7px;
+        }
+        #all{
+            padding-top: 15px;
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+        }
+        #all:hover{
+            cursor: pointer;
+        }
+        #home{
+             color: white; 
+             text-decoration: none;
+        }
+        #home:hover{
+            border-bottom: 1px solid white;
+            cursor: pointer;
+            color: rgb(15, 209, 193);
+            padding-bottom: 8px;
+            transition: 0.5s ease;
+        }
+    </style>
+</head>
+<body>
+    <div>
+        <div class="body-div">
+            <div class = "navbar">
+                <div class = "left-side">
+                    <div class="logo">
+                        <a href="http://127.0.0.1:5500/charitee.html"><img src="https://preview.colorlib.com/theme/charitee/assets/img/logo/logo.png"/></a>
+                    </div>
+                    <div>
+                        <ul class = "lists">
+                            <li><a id="home" href="http://127.0.0.1:5500/charitee.html">Home</a></li>
+                            <li><a id="home" href="http://127.0.0.1:5500/whoarewe.html">Who We Are?</a></li>
+                            <li><a id="home" href="http://127.0.0.1:5500/programs.html">Programs</a></li>
+                            <li><a id="home" href="http://127.0.0.1:5500/about.html">About</a></li>
+                            <li>Blog</li>
+                            <li>Contact us</li>
+                        </ul>
+                    </div>
+                </div>
+                <div>
+                    <div class = "right-side">
+                        <p id = "all">Call us: <span id ="line">9536845693</span></p>
+                        <button><span></span>🤍 Make A Donation</button>
+                    </div>
+                    <div>
+                        <h1></h1>
+                    </div>
+                </div>
+            </div>
+        <!-- h2-Hero-section -->
+            <div class="h2-hero-section">
+                <h1>Blog</h1>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

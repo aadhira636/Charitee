@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Programs</title>
+    <title>Document</title>
     <style>
         *{
             /* background-color: black; */
@@ -15,7 +15,7 @@
             cursor: pointer;
         }
         .body-div {
-            background-image: url("./assets/h2_hero1.jpg.webp"); 
+            background-image: url("/assets/h2_hero1.jpg.webp"); 
             background-repeat: no-repeat;
             background-size: cover;
         }
@@ -109,64 +109,101 @@
             padding-bottom: 8px;
             transition: 0.5s ease;
         }
-        .About4-section1{
+        .about2-section{
             display: flex;
-            gap: 30px;
             justify-content: center;
+            align-items: center;
+            margin-top: 50px;
+            margin-bottom: 50px;
+        }
+        .about2-section img{
+            margin-left: 50px;
+            width: 600px;
+            height: 500px;
+        }
+        .about2-section-text{
+            margin-left: 10px;
+            width: 430px;
+        }
+        #about2-section-top{
+            margin-right: 200px;
+            font-size: 15px;
+            font-weight: 550;
+            font-family: 'josefin sans', sans-serif;
+            color: #65C9BB;
+        }
+        .about2-section-text h1{
+            width: 400px;
+            margin-right: 0px;
+            font-size: 40px;
+            font-weight: 550;
+            font-family: 'josefin sans', sans-serif;
+            color: #263B5C;
+            margin-top: 15px;
             margin-bottom: 20px;
         }
-        .About4-section2{
-            display: flex;
-            gap: 30px;
-            justify-content: center;
-        }
-        .about4-section{
-            height: 500px;
-            display: flex;
-            flex-direction: row;
-        }
-        .first-one{
-            background-color: rgb(236, 235, 235);
-            height: 400;
-            width: 560px;
-        }
-        .about4-section-collection{
-            display: flex;
-            margin-left: 20px;
-            gap: 30px;
-            padding-top: 10px;
-        }
-        .first-one:hover{
-            cursor: pointer;
-        }
-        .about4-section button{
-            background-color: #F15B43;
-            height: 45px; 
-            width: 95px;
-            color: white;
-            font-weight: 600;
+        #about2-section-bottom{
+            color: #777777;
             font-size: 16px;
-            border: 1px solid #F15B43; 
-            margin-left: 420px;
-            padding-top: 0px;
-            margin-bottom: 40px;
+            font-weight: 500;
+            line-height: 1.6;
         }
-        .about4-section button:hover{
+        .about2-section-text button{
+            background-color:#F15B43;
+            font-size:18px;
+            font-weight: 600;
+            color: white;
+            height: 58px;
+            width: 180px;
+            border: 1px solid #65C9BB;
+            margin-top: 30px;
+        }
+        .about2-section-text button:hover{
             background-color: transparent;
+            border: 1px solid #F15B43;
             color: #F15B43;
             cursor: pointer;
-            transition: 0.5s ease;
+            transition: all 0.5s ease;
         }
-        #a4s-heading{
+        .services-section{
+            background-color: #f16049;
+            margin-bottom: 50px;
+            height: 550px;
+        }
+        .services-section-text{
+            color: white;
+            display: flex;
+            justify-content: center;
+            align-items: center;
             text-align: center;
-            margin-top: 100px;
-            margin-bottom: 40px;
+            flex-direction: column;
+            margin-top: 60px;
+            padding-top: 60px;
+            gap: 20px;
+        }
+        .services-section-provicions{
+            color: white;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+            margin-top: 60px;
+            padding-top: 10px;
+            gap: 120px;
+            width: 1200px;
+            margin-left: 130px;
+        }
+        .ssp-text img{
+            padding-bottom: 15px;
+            height: 110px;
+        }
+        .ssp-text h3,p{
+            padding-top: 10px;
         }
         .footer{
             display: flex;
             background-color: #263B5C;
             height: 410px;
-            margin-top: 20px;
         }
         .first-part{
             margin-top: 80px;
@@ -225,11 +262,61 @@
             padding-bottom: 10px;
             font-size: smaller;
         }
+        .about3-section{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin-bottom: 50px;
+        }
+        .about3-section img{
+            margin-top: 50px;
+            width: 456px;
+            height: 473px;
+        }
+        #about3-section-top{
+            margin-left: 50px;
+            color: #65C9BB;
+        }
+        .about3-section h1{
+            margin-left: 50px;
+            margin-top: 15px;
+            font-size: 41px;
+            font-weight: 550;
+            font-family: 'josefin sans', sans-serif;
+            color: #263B5C;
+        }
+        #about3-section-bottom{
+            margin-left: 50px;
+            color: #777777;
+            font-size: 16px;
+            font-weight: 500;
+            line-height: 1.6;
+            width: 400px;
+            margin-top: 20px;
+        }
+        .about3-section button{
+            margin-left: 50px;
+            background-color: white;
+            font-size:18px;
+            font-weight: 500;
+            color: #F15B43;
+            height: 58px;
+            width: 180px;
+            border: 1px solid #F15B43;
+            margin-top: 30px;
+        }
+        .about3-section button:hover{
+            background-color: #F15B43;
+            border: 1px solid #F15B43;
+            color: white;
+            transition: all 0.5s ease;
+            cursor: pointer;
+        }
     </style>
 </head>
 <body>
     <div>
-    <div class="body-div">
+        <div class="body-div">
         <div class = "navbar">
             <div class = "left-side">
                 <div class="logo">
@@ -256,93 +343,64 @@
                 </div>
             </div>
         </div>
-        <!-- h2-Hero-section -->
+       <!-- h2-Hero-section -->
         <div class="h2-hero-section">
-            <h1>Programs</h1>
+            <h1>About Us</h1>
         </div>
     </div>
-    <!-- About4-section -->
-    <div class="About4-section">
-        <div id="a4s-heading">
-            <p style="color: #65C9BB;margin-bottom: 10px;">Programs</p>
-            <h1 style="color: #263B5C;font-size: 40px;">Ongoing Programs</h1>
-        </div>
-        <div class="About4-section1">
-            <div class="about4-section">
-                <div class="first-one">
-                    <img style="height: 300px; width: 560px;" src="./assets/class-img1.jpg.webp" alt="">
-                    <h5 style="padding-left: 20px; padding-top: 20px;">Help the ecosystems</h5>
-                    <p style="color: #777777; width: 550px; margin-left: 20px;">Sedac odio aliquet, fringilla odio eget, tincidunt nunc duis aliquet pulvinar ante start in life and the opportunity to learn.</p>
-                        <div class="about4-section-collection">
-                            <div>
-                                <p style="color: #65C9BB;font-weight: 600;font-size: large;">$67,845</p>                                    <p style="font-size: small;">Goal</p>
-                            </div>
-                            <div>
-                                <p style="color: #65C9BB;font-weight: 600;font-size: large;">$48,845</p>
-                                <p style="font-size: small;">Raised</p>
-                            </div>
-                        </div>
-                    <button>Donate</button>
-                </div>
-            </div>
-                <div class="about4-section">
-                    <div class="first-one">
-                         <img style="height: 300px; width: 560px;" src="./assets/class-img2.jpg.webp" alt="">
-                        <h5 style="padding-left: 20px; padding-top: 20px;">Help the ecosystems</h5>
-                        <p style="color: #777777; width: 550px; margin-left: 20px;">Sedac odio aliquet, fringilla odio eget, tincidunt nunc duis aliquet pulvinar ante start in life and the opportunity to learn.</p>
-                            <div class="about4-section-collection">
-                                <div>
-                                    <p style="color: #65C9BB;font-weight: 600;font-size: large;">$67,845</p>
-                                    <p style="font-size: small;">Goal</p>
-                                </div>
-                                <div>
-                                    <p style="color: #65C9BB;font-weight: 600;font-size: large;">$48,845</p>
-                                    <p style="font-size: small;">Raised</p>
-                                </div>
-                            </div>
-                        <button>Donate</button>
+    <!-- About2-section -->
+                <div class="about2-section">
+                    <div class ="about2-section-text">
+                        <p id="about2-section-top">About Us</p>
+                        <h1>We are tender heart charity foundation.</h1>
+                        <p id="about2-section-bottom">When a child gets access to good food, it can change just about everything. Sed do eiusmod tempor incididunt dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation</p>
+                        <button>Discover More</button>
+                    </div>
+                    <div>
+                        <img src="/assets/about2.png.webp"/>
                     </div>
                 </div>
-        </div>
-        <div class="About4-section2">
-            <div class="about4-section">
-                <div class="first-one">
-                    <img style="height: 300px; width: 560px;" src="./assets/class-img3.jpg.webp" alt="">
-                    <h5 style="padding-left: 20px; padding-top: 20px;">Help the ecosystems</h5>
-                    <p style="color: #777777; width: 550px; margin-left: 20px;">Sedac odio aliquet, fringilla odio eget, tincidunt nunc duis aliquet pulvinar ante start in life and the opportunity to learn.</p>
-                        <div class="about4-section-collection">
-                            <div>
-                                <p style="color: #65C9BB;font-weight: 600;font-size: large;">$67,845</p>
-                                <p style="font-size: small;">Goal</p>
-                            </div>
-                            <div>
-                                <p style="color: #65C9BB;font-weight: 600;font-size: large;">$48,845</p>
-                                <p style="font-size: small;">Raised</p>
-                            </div>
+    <!-- Services-section -->
+             <div>
+                <div class="services-section">
+                    <div class="services-section-text">
+                        <p>Helping today</p>
+                        <h1>How we help people</h1>
+                    </div>
+                    <div class="services-section-provicions">
+                        <div class="ssp-text">
+                            <img id="food-image" src="./assets/services1.svg">
+                            <h3>Pure Food and Water</h3>
+                            <p>Odio aliquet, fringilla odio eget, tincidunt nunc duis aliquet pulvinar ante employees and organizations to support.</p>
                         </div>
-                    <button>Donate</button>
+                        <div class="ssp-text">
+                            <img id="health-image" src="./assets/services2.svg">
+                            <h3>Health and Medicine</h3>
+                            <p>Odio aliquet, fringilla odio eget, tincidunt nunc duis aliquet pulvinar ante employees and organizations to support.</p>
+                        </div>
+                        <div class="ssp-text">
+                            <img id="edu-image" src="./assets/services3.svg">
+                            <h3>Education</h3>
+                            <p>Odio aliquet, fringilla odio eget, tincidunt nunc duis aliquet pulvinar ante employees and organizations to support.</p>
+                        </div>
+                    </div>
+                </div>
+             </div>
+             <!-- About3-section -->
+            <div>
+                <div class ="about3-section">
+                    <div>
+                        <img src="/assets/about3.jpg.webp"/>
+                    </div>
+                    <div class="about3-section-text">
+                        <p id = "about3-section-top">Helping today</p>
+                        <h1>What we are doing</h1>
+                        <p id = "about3-section-bottom">When a child gets access to good food, it can change just about everything. Sed do eiusmod tempor incididunt dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation</p>
+                        <button>Join Us Today</button>
+                    </div>
                 </div>
             </div>
-            <div class="about4-section">
-                <div class="first-one">
-                    <img style="height: 300px; width: 560px;" src="./assets/class-img1.jpg.webp" alt="">
-                    <h5 style="padding-left: 20px; padding-top: 20px;">Help the ecosystems</h5>
-                    <p style="color: #777777; width: 550px; margin-left: 20px;">Sedac odio aliquet, fringilla odio eget, tincidunt nunc duis aliquet pulvinar ante start in life and the opportunity to learn.</p>
-                        <div class="about4-section-collection">
-                            <div>
-                                <p style="color: #65C9BB;font-weight: 600;font-size: large;">$67,845</p>                                    <p style="font-size: small;">Goal</p>
-                            </div>
-                            <div>
-                                <p style="color: #65C9BB;font-weight: 600;font-size: large;">$48,845</p>
-                                <p style="font-size: small;">Raised</p>
-                            </div>
-                        </div>
-                    <button>Donate</button>
-                </div>
-            </div>
-        </div>
-    </div>
-    <!-- Footer section -->
+             <!-- Footer section -->
             <div class="footer">
                 <div class="first-part">
                     <img src="https://preview.colorlib.com/theme/charitee/assets/img/logo/logo.png"/>
